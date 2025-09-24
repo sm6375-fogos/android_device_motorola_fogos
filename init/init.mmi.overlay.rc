@@ -139,3 +139,6 @@ on property:dev.bootcomplete=1 && property:ro.vendor.hw.ram=4GB
 
 on init && property:ro.boot.hardware.sku="XT2363-8"
     setprop vendor.powerhal.config powerhint-blairpro.json
+
+on init && property:ro.boot.hardware.sku="XT2363-9"
+    setprop vendor.powerhal.config powerhint-blairpro.json
