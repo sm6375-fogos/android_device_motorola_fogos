@@ -262,6 +262,23 @@ product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoog
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
+# MotCamera3 
+product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED|fa2150888c2b593e387b278ce5e78da5ff10788f
+product/etc/permissions/com.motorola.camera3.xml|0d383cbc8f265d80e4f08c9bb9ecefe321a29a7d
+product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml|190b3ce907c094a030c515895e21c6afcecbafc4
+product/etc/permissions/privapp-permissions-com.motorola.camera3.xml|b759bdaf7baca0dcc8ee5e1d1faf51c78d43c4a1
+product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml|d99de1fb201aa63d9d543a41104013989fc84dc9
+product/priv-app/MotCamera4/MotCamera4.apk;PRESIGNED|c3484e2531f99c28b8b685a7dddb0c0735df5c0b
+system/etc/permissions/moto-core_services.xml|089d5414076312bff1bbb001ef134c87f68bf65d
+system/framework/moto-core_services.jar|7591a9127c6e9bfab2ae7021200fe0d2ab6aafc7
+
+# Moto Permissions
+product/etc/permissions/com.motorola.camera3.xml:vendor/etc/permissions/com.motorola.camera3.xml|0d383cbc8f265d80e4f08c9bb9ecefe321a29a7d
+product/etc/permissions/com.motorola.camera3.content.ai.xml:vendor/etc/permissions/com.motorola.camera3.content.ai.xml|261f857c62c97286f492b3f5c69ff11226a06af0
+product/etc/permissions/com.motorola.camera3.fogos.xml:vendor/etc/permissions/com.motorola.camera3.fogos.xml|5d69b81d7c147bec3bed42bfdaf70441fa5035ac
+product/etc/permissions/com.motorola.camera3.lens.xml:vendor/etc/permissions/com.motorola.camera3.lens.xml|7dfafac8d89447a1e0bc93fd5cea5ca6e5c20bee
+product/etc/permissions/com.motorola.moto-uirefresh.xml|a5c91ea6d99ad0d14e6e13000516c89098621837
+
 # NFC - configs
 vendor/etc/libnfc-sec-nci.conf
 vendor/etc/libnfc-sec-vendor.conf
