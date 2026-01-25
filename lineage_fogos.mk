@@ -24,5 +24,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="fogos_g-user 15 V1UGS35H.75-14-3-5 8bc43-2e1099 release-keys MV-186" \
-    BuildFingerprint=motorola/fogos_g/fogos:15/V1UGS35H.75-14-3-5/8bc43-2e1099:user/release-keys \
+    BuildFingerprint=google/komodo_beta/komodo:CANARY/ZP11.251212.007/14649019:user/release-keys \
     DeviceProduct=fogos_g
